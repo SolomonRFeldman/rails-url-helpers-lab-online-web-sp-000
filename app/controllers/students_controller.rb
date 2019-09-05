@@ -10,6 +10,7 @@ class StudentsController < ApplicationController
   
   def activate
     @student.toggle(:active).save
+    redirect_to 
   end
 
   private
