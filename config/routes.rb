@@ -1,4 +1,4 @@
 Rails.application.routes.draw do
   resources :students
-  get '/students/:id/activate' 
+  get '/students/:id/activate' to: 
 end
