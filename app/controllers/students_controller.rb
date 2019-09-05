@@ -9,7 +9,7 @@ class StudentsController < ApplicationController
   end
   
   def activate
-    @student.update()
+    @student.toggle(:active).save
   end
 
   private
